@@ -1,2 +1,2 @@
 # Python
-Códigos python e alguns exercícios
+Repositório criado para registrar os estudos e progresso da linguagem Python
