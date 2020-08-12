@@ -1,4 +1,3 @@
-# for
 # iterando sobre string
 nome = 'rafael'
 for letra in nome:
