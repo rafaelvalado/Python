@@ -1,0 +1,17 @@
+
+""" while expressão booleana:
+    // execuçao do loop """
+
+# o bloco do while será repetido enquanto a expressão booleana for True.
+# ex01
+numero = 1
+while numero < 10:
+    print(numero)
+    numero += 1
+
+
+# ex02
+while True:
+    comando = input('Digite "sair" para sair ')
+    if comando == 'sair':
+        break
