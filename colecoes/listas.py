@@ -249,7 +249,71 @@ for produto in carrinho:
     print(produto)
 print(carrinho)
 
+# utilizando variáveis em listas 
 
+num1 = 1
+num2 = 3
+num3 = 5
+num4 = 7
+num5 = 9
+num6 = 11
+
+numeros = [num1, num2, num3, num4, num5, num6]
+print(numeros)
+
+# fazemos acesso aos elementos de froma idexada
+
+# ex01
+
+cores = ['verde', 'amarelo', 'azul', 'branco']
+
+print(cores[0]) # verde
+print(cores[1]) # amarelo
+print(cores[2]) # azul
+print(cores[3]) # branco
+
+# fazemos acesso aos elementos de forma idexada inversa
+
+# ex02
+
+print(cores[-1]) # branco
+print(cores[-2]) # azul
+print(cores[-3]) # amarelo
+print(cores[-4]) # verde
+
+# fazemos acesso aos elementos de froma idexada
+
+# ex01
+
+cores = ['verde', 'amarelo', 'azul', 'branco']
+
+print(cores[0]) # verde
+print(cores[1]) # amarelo
+print(cores[2]) # azul
+print(cores[3]) # branco
+
+# fazemos acesso aos elementos de forma idexada inversa
+
+# ex02
+
+print(cores[-1]) # branco
+print(cores[-2]) # azul
+print(cores[-3]) # amarelo
+print(cores[-4]) # verde
+
+# usando um loop
+
+# ex01
+
+cores = ['verde', 'amarelo', 'azul', 'branco']
+
+for cor in cores:
+    print(cor)
+
+indice = 0 
+while indice < len(cores):
+    print(cores[indice])
+    indice = indice + 1
 
 
 
