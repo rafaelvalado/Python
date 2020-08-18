@@ -315,11 +315,65 @@ while indice < len(cores):
     print(cores[indice])
     indice = indice + 1
 
+# gerando índice em um for
 
+cores = ['verde', 'amarelo', 'azul', 'branco']
 
+for indice, cor in enumerate(cores):
+    print(indice, cor)
 
+# coisas não muito importante, mas úteis
 
+# encontrar elementos em uma lista usando index()
+""" OBS: - caso o elemento não estiver na lista, apresentará erro
+        - caso o elemento estiver repetido, o programa irá mostrar 
+        apenas o índice do primeiro encontrado. 
+"""
+numeros = [1, 3, 5, 7, 9, 11]
 
+# em que índice fica o elemento 7?
+print(numeros.index(7))
 
+# em que índice fica o elemento 5?
+print(numeros.index(5))
+
+# podemos indicar a partir de qual índice começar a buscar
+
+print(numeros.index(5, 1)) # procure o elemento do número 5 a partir do índice 1
+
+# achar o índice de um número em um intervalo de índice
+
+print(numeros.index(9, 3, 5)) # ache o número 9 entre o índice 3 e 5
+
+# soma* (sum), valor_máximo* (max), valor_mínimo* (min), tamanho (len).
+# * somente para valores inteiros ou reais
+
+lista = [1, 2, 3, 4, 5, 6, 7, 8]
+print(sum(lista))
+print(max(lista))
+print(min(lista))
+print(len(lista))
+
+# transformando uma lista em tupla
+
+lista = [1, 2, 3, 4, 5, 6]
+print(lista)
+print(type(lista))
+print()
+tupla = tuple(lista)
+print(tupla)
+print(type(tupla))
+
+# desempacotamento de listas
+""" OBS: caso a quantidade de elementos contido na for diferente da quantidade 
+de variáveis a receber, dará erro tipo ValueError  """
+listas = [1, 2, 3, 4]
+
+num1, num2, num3, num4 = listas
+
+print(num1)
+print(num2)
+print(num3)
+print(num4)
 
 
